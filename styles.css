@@ -15,6 +15,7 @@ body {
     background-image: url('img/backimage-02.jpg');
 }
 
+
 .title-header {
     font-family: "Lucida Console", "Courier New", monospace;
     color: rgb(19, 18, 18);
@@ -24,9 +25,9 @@ body {
 }
 
 .header-container {
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Cuprum', sans-serif;
     font-size: 40px;
-    text-shadow: 2px 2px white;
+    /* text-shadow: 2px 2px rgb(255, 0, 0); */
     text-align: center;
     background-size: contain;
     margin-top: 100px;    
@@ -98,7 +99,9 @@ h5 {
 
   .intro-container {
     text-align: center;
-    font-family: 'League Spartan', sans-serif;;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;;
+    background-color: inherit;
   }
 
 /* Footer */
@@ -129,13 +132,6 @@ h5 {
 
 
 
-/*.card {
-    width: 500px;
-    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 20%);
-}*/
-
-
-
 .element {
     // Three columns to start
     @include row-cols(3);
@@ -145,3 +141,94 @@ h5 {
       @include row-cols(5);
     }
   }
+
+  /* Content */
+
+
+.text-container {
+  height: 100%;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-right:100px;
+  
+}
+
+.text-container img {
+  max-width: 80%;
+  padding: 200px 200px 200px 200px;
+
+}
+
+.headline {
+  padding: 50px 50px ;
+
+}
+
+/* Collapsing Columns */
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2em;
+}
+
+.column-container {
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: column;
+  }
+}
+
+
+/* CARDS */
+
+.card {
+  box-shadow:
+    -webkit-transition: box-shadow 0.6s linear;
+  transition: box-shadow 0.2s linear;
+  margin: 0.5em;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 0px 3px #212529;
+}
+
+.card p {
+  margin-bottom: 0rem;
+}
+
+.box-outline {
+  border-style: solid;
+  border-color: black;
+}
+
+.text-muted {
+  font-family: 'Roboto';
+  padding-left: 20px;
+  padding-bottom: 2px;
+  font-size: 16px;
+}
+
+.badge-color {
+  background-color: #034C4C;
+  color: #fff;
+}
+
+.badge-pill {
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-additional-text {
+  font-style: oblique;
+  font-size: 10px;
+  padding-top: 10px
