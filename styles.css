@@ -8,7 +8,7 @@
 	top: 0;
     z-index: 99;
   background-color: #ddd;
-  color: black;
+  color: blue;
 }
 
 body {
@@ -189,9 +189,14 @@ h5 {
 @media screen and (min-width: 370px) {
   .row {
     margin: auto;
-  }
 }
 
+
+/* @media screen and (max-width: 2000px) {
+  .row {
+    padding-left: auto;
+  }    
+} */
 
 /* CARDS */
 
@@ -212,7 +217,7 @@ h5 {
 
 .box-outline {
   border-style: solid;
-  border-color: black;
+  border-color: gray;
 }
 
 .text-muted {
@@ -232,16 +237,27 @@ h5 {
 }
 
 .card-title {
+  font-family: 'Georgia', serif;
   font-size: 20px;
 }
 
-.card-additional-text {
-  font-style: oblique;
-  font-size: 10px;
+.card-text {
+  font-style: normal;
+  font-size: 15px;
   padding-top: 10px
+
+}
+
+.col-md-4 a:link {
+  color: black
+}
+
+a:hover {
+  color: blue;
 
 }
 
 .col-md-4 {
   max-width: 400px;
+  
 }
