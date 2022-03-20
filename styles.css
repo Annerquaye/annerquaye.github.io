@@ -85,13 +85,13 @@ h5 {
   
   /* Card container */
   .card-container {
-    padding: 10px 100px 100px 50px;
+    padding: 5px 5px 5px 5px;
 
   }
 
   /* Social media */
   .social-media {
-      padding: 50px 50px ;
+      padding: 10px 10px ;
       text-align: center;
   }
 
@@ -102,6 +102,7 @@ h5 {
     font-family: 'League Spartan', sans-serif;
     font-size: 20px;;
     background-color: inherit;
+    padding: 100px 2px 2px 2px;
   }
 
 /* Footer */
@@ -185,6 +186,12 @@ h5 {
   }
 }
 
+@media screen and (min-width: 370px) {
+  .row {
+    margin: auto;
+  }
+}
+
 
 /* CARDS */
 
@@ -232,3 +239,9 @@ h5 {
   font-style: oblique;
   font-size: 10px;
   padding-top: 10px
+
+}
+
+.col-md-4 {
+  max-width: 400px;
+}
