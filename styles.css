@@ -275,6 +275,10 @@ h5 {
 
 }
 
+.row {
+  justify-content: space-around;
+}
+
 .col-md-4 a:link {
   color: black
 }
