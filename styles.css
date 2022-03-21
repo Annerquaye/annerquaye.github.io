@@ -292,10 +292,10 @@ a:hover {
 /* About Me */
 .container-about {
   margin: auto;
-  background-color: rgb(241, 236, 236);
+  background-color: gainsboro;
   background-size: contain;
   margin-top: 100px;
-  border: 0.5px solid #aeb1ab;
+  border: 0.5px solid #aeb1ab;;
   
 }
 
