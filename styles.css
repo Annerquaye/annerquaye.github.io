@@ -226,7 +226,7 @@ h5 {
 } */
 
 /* CARDS */
-
+/* .card-container */
 .card {
   box-shadow:
     -webkit-transition: box-shadow 0.6s linear;
