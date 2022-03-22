@@ -329,7 +329,7 @@ a:hover {
 }
 
 .container-story {
-  width: 850px;
+  margin: auto;
   background-color: whitesmoke;
   background-size: contain;
   margin: auto;
