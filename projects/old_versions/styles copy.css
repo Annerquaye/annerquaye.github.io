@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('img/backimage-02.jpg');
+    background-image: url("img/backimage-02.jpg");
 }
 
 
@@ -317,4 +317,39 @@ a:hover {
 
 .about-body .p {
   padding: 100px;
+}
+
+.body-story {
+  margin: auto;
+  background-color: gainsboro;
+  background-size: contain;
+  margin-top: 100px;
+  border: 0.5px solid #aeb1ab;;
+  
+}
+
+.container-story {
+  width: 850px;
+  background-color: whitesmoke;
+  background-size: contain;
+  margin: auto;
+  border: 0.5px solid #aeb1ab;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+}
+
+.story-title {
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+.date-container {
+  background-color: rgb(189, 188, 188);
+  color: white;
+  display: inline-block;
+  margin: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 200px;
 }
