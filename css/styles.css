@@ -358,3 +358,8 @@ a:hover {
 .bodyof-story {
 
 }
+
+.bodyof-story .p .img {
+  margin: auto;
+  max-width: 100%;
+}
