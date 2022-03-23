@@ -364,3 +364,9 @@ font-family: 'Quicksand', sans-serif;
   margin: auto;
   max-width: 100%;
 }
+
+.byline {
+  color: black;
+  opacity: 0.5;
+  /* color: rgba(0, 0, 0, 0.5); */
+}
