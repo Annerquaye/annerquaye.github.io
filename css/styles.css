@@ -13,6 +13,7 @@
 
 body {
     background-image: url('backimage-02.jpg');
+    background-repeat: no-repeat;
 }
 
 
