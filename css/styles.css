@@ -371,3 +371,38 @@ font-family: 'Quicksand', sans-serif;
   opacity: 0.5;
   /* color: rgba(0, 0, 0, 0.5); */
 }
+
+/* Scrollytelling */
+
+.scrolly-intro {
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  text-align: center;
+}
+
+.scrolly-intro .img {
+  /* height: 100%;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.scrolly-intro .h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.scrolly-intro .p {
+  font-family: 'Quicksand', sans-serif;
+  background-color: aliceblue;
+}
+
+.scrolly-text {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(245, 245, 245, 0.952);
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
