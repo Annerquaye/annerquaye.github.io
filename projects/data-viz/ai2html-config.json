@@ -1,0 +1,53 @@
+{
+    "fonts": [
+        {
+            "aifont": "OpenSans-CondensedBold",
+            "family": "Open Sans Condensed",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "HelveticaNeue-Thin",
+            "family": "Helvetica Neue",
+            "weight": "200",
+            "style": ""
+        },
+        {
+            "aifont": "AvenirNext-DemiBold",
+            "family": "Avenir Next",
+            "weight": "600",
+            "style": ""
+        },
+        {
+            "aifont": "AvenirNext-Regular",
+            "family": "Avenir Next",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica-Bold",
+            "family": "Helvetica Next",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica",
+            "family": "Helvetica",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "GillSans",
+            "family": "GillSans",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "AvenirNext-Bold",
+            "family": "Avenir Next",
+            "weight": "700",
+            "style": ""
+        }
+
+    ]
+}
