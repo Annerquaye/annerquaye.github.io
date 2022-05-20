@@ -423,3 +423,11 @@ font-family: 'Quicksand', sans-serif;
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.disclaimer {
+
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

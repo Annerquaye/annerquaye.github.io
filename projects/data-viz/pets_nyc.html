@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script>
+        // < !--Global site tag(gtag.js) - Google Analytics-- >
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102043129-1');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Abbey Richard's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/c0565cd6ff.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Laila:wght@300;400;500;600;700&family=League+Spartan:wght@600&family=Oswald:wght@200;300;400;500;600;700&family=Sansita+Swashed:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/efe58d4158.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=League+Spartan:wght@600&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Laila:wght@300;400;500;600;700&family=League+Spartan:wght@600&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Domine:wght@700&family=Laila:wght@300;400;500;600;700&family=League+Spartan:wght@600&family=Merriweather:wght@700&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../../css/story.css">
+
+    <!-- Favicon -->
+    <link rel="image_src" href="img/portfolio-01.jpg" />
+    <meta name="description" content="A visual story of tax exemptions by Ghana's Parliament" />
+    <meta name="keywords" content="Richard is currently pursuing a data journalism masters at Columbia University." />
+    <meta property="og:image" content="img/portfolio-01.jpg" />
+    <!-- <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="300" />
+  <meta property="og:image:alt" content="A shiny red apple with a bite taken out" /> -->
+
+
+</head>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        #scrolly {
+            position: relative;
+            padding: 1rem;
+        }
+
+        .scrolly-overlay {
+            position: relative;
+            padding: 0;
+            min-width: 35rem;
+            max-width: 300rem;
+            margin: 0 auto;
+            Z-index: 100;
+
+        }
+
+        .sticky-thing {
+            position: -webkit-sticky;
+            position: sticky;
+            left: 0;
+            width: 100%;
+            padding-top: 7px;
+            margin: 0;
+            z-index: 0;
+            top: 0;
+            height: 100vh;
+            /* Center everything inside */
+            display: flex;
+            justify-content: right;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .step {
+            margin: 0 auto 2rem auto;
+            margin-bottom: 25rem;
+            background-color: rgba(255, 255, 255, 0.795);
+            color: rgb(17, 16, 16);
+            Z-index: 100;
+        }
+
+        .step p {
+            text-align: left;
+            padding: 1rem;
+            font-size: 1rem;
+
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        /* When it's less than 700 pixels wide, do normal scrollytelling */
+        @media only screen and (min-width: 700px) {
+            #scrolly.side-by-side {
+                display: flex;
+            }
+
+            #scrolly.side-by-side>div {
+                flex-basis: 0;
+                flex-grow: 1;
+                flex-shrink: 1;
+                padding: 0.75em;
+            }
+
+            #scrolly.side-by-side .scrolly-overlay {
+                margin-top: 70vh;
+                order: 0;
+                /* Change these to adjust sizing options */
+                min-width: 15rem;
+                max-width: 20rem;
+            }
+
+            #scrolly.side-by-side .sticky-thing {
+                order: 1;
+                flex-grow: 2;
+            }
+
+        }
+    </style>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sticky">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="../../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" <a href="../../img/resume.pdf">RESUME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" <a href="mailto:raa2213@columbia.edu" target="_blank">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class='story-title'>
+            <img src="../../img/rooster-image.jpeg" margin: auto width="100%">
+            <em>
+                <p align="right">Image ©: Kiro7</p>
+            </em>
+            <h1 align="left"> Roosters lead the pecking order of illegal pets in NYC </h1>
+        </div>
+        <br>
+        <strong>
+            <p>By Richard A. Abbey
+            <p>
+        </strong>
+        <div class="story-body">
+            <p><span class="myDropcap">N</span>ew York City is home to more than a million pets, according to various
+                estimates.
+                The vast majority of these pets are either dogs or cats.
+                While the exact population of pets in the Big Apple is up for debate,
+                the New York City Economic Development or NYCEDC estimate of 1.1 million is widely referenced.</p>
+
+            <p>Besides canines and felines, some New Yorkers seem to have an affinity towards animals that are
+                outrightly
+                outlawed to be kept as pets.
+                Apart from issuing licenses to dog owners, the New York City Department of Health and Mental Hygiene or
+                DOHMH has a list of animals that are forbidden to be kept as pets.</p>
+
+            <p>For starters, most farm animals cannot be kept as pets. The list of outlawed animals includes wild
+                animals
+                like lions,
+                kangaroos, ferrets, bees, and many others. The department's reasons for listing some of
+                these animals may seem obvious while others may not.</p>
+
+            <p>The city's 311 complaints system, a service established for New Yorkers to file complaints about anything
+                to
+                city authorities,
+                allows people to report illegal animals being kept as pets. Alternatively, people who own these animals
+                can
+                drop them off at
+                Animal Care Centers locations across the city to avoid a violation.</p>
+
+            <p>An analysis of 311 complaints offers an insight into which of these animals are mostly reported to city
+                officials.
+                The 311 data since 2010 identifies animals such as roosters, snakes, ferrets, monkeys, and turtles among
+                some of the oft-reported complaints.</p>
+        </div>
+    </div>
+
+
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                    <img src='../../img/rooster.jpeg' width=" 70%">
+                    <em>
+                        <p align="center">Image ©: Newsweek</p>
+                    </em>
+
+
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-zero">
+                <p>Roosters lead the pecking order of complaints of
+                    illegal animals kept as pets. The noisy
+                    cluckers had nearly 1,800, more than <span
+                        style="color:white;font-weight:bold; background: #0c0c0c">50 percent</span>
+                    of the city's total complaints of
+                    unlawful pets.
+                </p>
+            </div>
+            <div class="step" id="step-one">
+                <p>These complaints came from all over the city's five boroughs. The majority of the
+                    complaints, 585, came from Queens, with Manhattan, 104, having the lowest
+                    complaints.
+                </p>
+            </div>
+            <div class="step" id="step-two">
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+            <p>There are several reasons why roosters are illegal. The obvious reason is the nuisance
+                they
+                create with their crowing. Rooster fighting is another reason why these animals are not
+                permitted.
+            </p>
+            <p>Cockfighting is a blood sport in which two roosters specifically bred for aggression are
+                placedbeak to beak in a small ring and encouraged to fight to the death.
+
+        </div>
+    </div>
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                <img src="../../img/snake.jpeg" width="70%">
+                <em>
+                    <p align="center">Image ©: Thoughtco.com</p>
+                </em>
+
+
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-three">
+                <p><span style="color:white;font-weight:bold; background:goldenrod">Snakes</span>
+                    are a popular choice among exotic pet lovers. There were about 260
+                    complaints
+                    made about these slimy sneaky creatures.
+                </p>
+            </div>
+            <div class="step" id="step-four">
+                <p>Brooklyn had the most complaints, 89, about snakes, while Staten Island got the
+                    least
+                    amount with 27.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+            <p>City authorities forbid the keeping of these venomous reptiles as pets. Large
+                constrictor
+                snakes are also illegal.
+            </p>
+            <p>Cockfighting is a blood sport in which two roosters specifically bred for aggression
+                are
+                placed beak to beak in a small ring and encouraged to fight to the death.
+            </p>
+        </div>
+    </div>
+
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                <img src="../../img/ferret.jpeg" width="70%">
+                <em>
+                    <p align="center">Image ©: Texas AMH college of of Veterinary Medicine</p>
+                </em>
+
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-five">
+                <p>A <span style="color:white;font-weight:bold; background: brown">ferret</span> is a small,
+                    furry creature with a cone-shaped nose, a long tail, and a
+                    long, pear-shaped body with short legs and long claws.
+                </p>
+            </div>
+            <div class="step" id="step-six">
+                <p>There were 74 complaints about ferrets throughout the city. Queens had 21
+                    complaints,
+                    the most by any borough, while Staten Island had nine complaints.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+            <p>New York City has long considered ferrets as wild animals and generally banned them.
+            </p>
+            <p>In 1999, former New York Mayor Rudolph Giuliani made it illegal for ferrets to be kept as
+                pets due to fear of rabies. There were also concerns that the furry creatures could attack
+                children.
+            </p>
+        </div>
+    </div>
+
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                <img src="../../img/monkey.jpeg" width="70%">
+                <em>
+                    <p align="center">Image ©: NY Post</p>
+                </em>
+
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-seven">
+                <p>
+                    Across the state, 36 complaints were filed against people keeping
+                    <span style="color:white;font-weight:bold; background: brown">monkeys</span>
+                    as pets.
+                </p>
+            </div>
+            <div class="step" id="step-eight">
+                <p>Brooklyn and Queens accounted for nearly 60 percent of all these complaints,
+                    while the other boroughs made up for the rest</p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+
+            <p>Only licensed authorities like zoos or animal researchers can keep the primate, as
+                they're considered illegal as pets.
+            </p>
+            <p>These primates are typically regarded as unpredictable no matter how domesticated they
+                appear. There have been reports of some turning on their owners, which may justify the
+                city's
+                stance.
+            </p>
+        </div>
+    </div>
+
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                <img src="../../img/iguanas.jpeg" width="70%">
+                <em><p align="center">Image ©: CB Reptile</p></em>
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-nine">
+                <p>
+                    Half of the 34 complaints about
+                    <span style="color:white;font-weight:bold; background: green"> iguanas </span>
+                    from Brooklyn. The rest of the
+                    complaints were pretty evenly distributed across the other boroughs.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+
+            <p>Iguanas, which belong to the reptile family, are venomous, although their venom may not
+                typically be as deadly as other siblings.
+            </p>
+            <p>The decision to ban these reptiles dates far back to the 90s when the Department of
+                Health
+                moved to ban hundreds of species of animals, including iguanas, from ownership.
+            </p>
+        </div>
+    </div>
+    <section id="scrolly" class="side-by-side">
+        <div class="sticky-thing">
+            <div class="ai2html-container">
+                <img src="../../img/turtle.jpeg" width="70%">
+                <em>
+                    <p align="center">Image ©: CB Reptile </p>
+                </em>
+
+                <!-- ai2html goes below this line -->
+
+                <!-- ai2html goes above this line -->
+            </div>
+        </div>
+
+        <div class="scrolly-overlay">
+            <div class="step" id="step-nine">
+                <p>
+                    A total of 13 complaints were received about
+                    <span style="color:black;font-weight:bold; background: silver"> turtles under 4 inches long </span>
+                    Nine of these complaints came from Brooklyn, with the rest coming from all the other
+                    boroughs except Manhattan.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="story-body">
+            <strong>
+                <p>Why they are illegal:</p>
+            </strong>
+
+            <p>It's illegal to sell or distribute pet turtles with shells less than 4 inches long
+                because
+                they spread salmonella.
+            </p>
+            <p>Forty years ago, the U.S. outlawed the sale of tiny turtles as pets because they harbor
+                salmonella, a bacterium that causes a highly unpleasant and occasionally deadly illness
+                in
+                humans.
+            </p>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        <h1>Caveat</h1>
+
+        <p>The 311 data showed that 513 complaints were made about Farm Animals but offered no
+            breakdown. Another set of complaints classified as "Other" had 847 total complaints;
+            again, no breakdown was provided.
+        </p>
+        <p>Also, these complaints have not been filtered to remove instances of duplication of
+            complaints about the same incidents. These complaints were made between 2010 and 2022.
+
+            This story was done for Data Studio, a class in the Columbia Journalism School.
+            To view the source code and read more about the project, visit the GitHub repository <a
+                href="https://github.com/Annerquaye/311_Illegal_Pets.git">here</a>.
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        function hideNote() {
+            // annotation: #path-1, #text-1, #path-2, #text-2
+            d3.select("#path-1").classed('hidden', true)
+            d3.select("#text-1").classed('hidden', true)
+            d3.select("#path-2").classed('hidden', true)
+            d3.select("#text-2").classed('hidden', true)
+        }
+
+        /* Scrollytelling code goes under here */
+
+        d3.select("#path-1").classed('hidden', true)
+        d3.select("#path-2").classed('hidden', true)
+        d3.select("#path-3").classed('hidden', true)
+        d3.select("#path-4").classed('hidden', true)
+
+        d3.select("#step-zero").on('stepin', function (e) {
+            // undo changes from step-one
+
+            d3.select("#path-1").classed('hidden', true)
+            d3.select("#path-2").classed('hidden', true)
+            d3.select("#path-3").classed('hidden', true)
+            d3.select("#path-4").classed('hidden', true)
+
+        })
+
+
+        d3.select("#step-one").on('stepin', function (e) {
+            console.log("Got to step one")
+            // undo changes from step-two
+            d3.select("#path-1").classed('hidden', true)
+            d3.select("#path-2").classed('hidden', true)
+            d3.select("#path-3").classed('hidden', true)
+            d3.select("#path-4").classed('hidden', true)
+
+            // do changes for step-one
+            d3.select("#path-1").classed('hidden', false).attr('opacity', 0).transition().duration(2000).attr('opacity', 1)
+            d3.select("#path-2").classed('hidden', false).attr('opacity', 0).transition().duration(2000).attr('opacity', 1)
+            d3.select("#path-3").classed('hidden', true)
+            d3.select("#path-4").classed('hidden', true)
+
+        })
+
+        d3.select("#step-two").on('stepin', function (e) {
+            console.log("Got to step two")
+            // undo changes for step-one
+            d3.select("#path-1").classed('hidden', false)
+            d3.select("#path-2").classed('hidden', false)
+            d3.select("#path-3").classed('hidden', false)
+            d3.select("#path-4").classed('hidden', false)
+
+            // do changes for step-2 
+            d3.select("#path-1").classed('hidden', false)
+            d3.select("#path-2").classed('hidden', false)
+            d3.select("#path-3").classed('hidden', false).attr('opacity', 0).transition().duration(10000).attr('opacity', 1)
+            d3.select("#path-4").classed('hidden', false).attr('opacity', 0).transition().duration(10000).attr('opacity', 1)
+        })
+
+        // Hide data in step-three
+        d3.selectAll("[data-name='ndc']").style('stroke', 'black').classed('hidden', true)
+        d3.selectAll("[data-name='npp']").style('stroke', 'black').classed('hidden', true)
+
+        // Do changes for step-4 (Bring in NDC bubbles)
+
+        d3.select("#step-three").on('stepin', function (e) {
+            console.log("Got to step three")
+            // do changes for step-3
+            d3.selectAll("[data-name='ndc']").style('stroke', 'black').classed('hidden', false)
+            d3.selectAll("[data-name='npp']").style('stroke', 'black').classed('hidden', true)
+        })
+
+        // Do changes for step-4 (Bring in NPP bubbles)
+
+        d3.select("#step-four").on('stepin', function (e) {
+            console.log("Got to step four")
+
+            // do changes for step-four
+            d3.selectAll("[data-name='ndc']").style('stroke', 'black').classed('hidden', false)
+            d3.selectAll("[data-name='npp']").style('stroke', 'black').classed('hidden', false)
+
+        })
+
+
+    </script>
+
+    <script>
+        const scroller = scrollama();
+
+        scroller
+            .setup({
+                step: "#scrolly .scrolly-overlay .step",
+                offset: 0.5,
+                debug: false
+            })
+            .onStepEnter(function ({ element, index, direction }) {
+                const event = new CustomEvent('stepin', { detail: { direction: direction } })
+                element.dispatchEvent(event);
+            })
+            .onStepExit(function ({ element, index, direction }) {
+                const event = new CustomEvent('stepout', { detail: { direction: direction } })
+                element.dispatchEvent(event);
+            });
+
+        window.addEventListener("resize", scroller.resize);
+    </script>
+
+
+    <!-- ai2html resizer script -->
+
+    <script type="text/javascript">
+        (function () {
+            // only want one resizer on the page
+            if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+            document.documentElement.className += " g-resizer-v3-init";
+            // require IE9+
+            if (!("querySelector" in document)) return;
+            function resizer() {
+                var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                    widthById = {};
+                elements.forEach(function (el) {
+                    var parent = el.parentNode,
+                        width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                        minwidth = el.getAttribute("data-min-width"),
+                        maxwidth = el.getAttribute("data-max-width");
+                    widthById[parent.id] = width;
+
+                    if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                        el.style.display = "block";
+                    } else {
+                        el.style.display = "none";
+                    }
+                });
+                try {
+                    if (window.parent && window.parent.$) {
+                        window.parent.$("body").trigger("resizedcontent", [window]);
+                    }
+                    if (window.require) {
+                        require(['foundation/main'], function () {
+                            require(['shared/interactive/instances/app-communicator'], function (AppCommunicator) {
+                                AppCommunicator.triggerResize();
+                            });
+                        });
+                    }
+                } catch (e) { console.log(e); }
+            }
+
+            document.addEventListener('DOMContentLoaded', resizer);
+            // feel free to replace throttle with _.throttle, if available
+            window.addEventListener('resize', throttle(resizer, 200));
+
+            function throttle(func, wait) {
+                // from underscore.js
+                var _now = Date.now || function () { return new Date().getTime(); },
+                    context, args, result, timeout = null, previous = 0;
+                var later = function () {
+                    previous = _now();
+                    timeout = null;
+                    result = func.apply(context, args);
+                    if (!timeout) context = args = null;
+                };
+                return function () {
+                    var now = _now(), remaining = wait - (now - previous);
+                    context = this;
+                    args = arguments;
+                    if (remaining <= 0 || remaining > wait) {
+                        if (timeout) {
+                            clearTimeout(timeout);
+                            timeout = null;
+                        }
+                        previous = now;
+                        result = func.apply(context, args);
+                        if (!timeout) context = args = null;
+                    } else if (!timeout) {
+                        timeout = setTimeout(later, remaining);
+                    }
+                    return result;
+                };
+            }
+
+
+        })();
+    </script>
+
+</body>
+
+</html>
