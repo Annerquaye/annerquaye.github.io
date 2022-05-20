@@ -424,8 +424,8 @@
   }
   .disclaimer {
     background-color: gray;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -444,4 +444,9 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw; */
+  }
+
+  .pet-headline {
+    padding-left: auto;
+    text-align: left;
   }
